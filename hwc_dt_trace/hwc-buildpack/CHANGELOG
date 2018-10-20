@@ -1,0 +1,163 @@
+v3.0.3 Oct 17, 2018
+====================
+
+* Releasing to fix bug during installation for certain CC api versions on foundations
+  (https://www.pivotaltracker.com/story/show/161095478)
+
+* No feature changes
+
+v3.0.2 Sep 20, 2018
+====================
+
+* Releasing to only install windows2012R2/windows2016 buildpack on foundations
+  with windows2012R2/windows2016 stacks
+
+* No feature changes
+
+v3.0.1 Sep 19, 2018
+====================
+
+* Releases buildpacks for windows2012R2 and windows2016 stacks
+
+v3.0.0 Sep 12, 2018
+=====================
+
+* Add multi buildpack support. HWC-Buildpack can now be used as a supply
+  or final buildpack.
+  (https://www.pivotaltracker.com/story/show/159039896)
+
+
+v2.3.19 Jul 30, 2018
+=====================
+
+* Add hwc 12.0.0, remove hwc 11.0.0
+  (https://www.pivotaltracker.com/story/show/159146378)
+
+v2.3.18 Jul 05, 2018
+=====================
+
+* Update libbuildpack to get temp directory fix for Windows2012R2
+  (https://www.pivotaltracker.com/story/show/158693647)
+
+v2.3.17 Jun 05, 2018
+=====================
+
+* Support packaging with associated stacks
+  (https://www.pivotaltracker.com/story/show/153256959)
+
+* Add hwc 11.0.0, remove hwc 10.0.0
+  (https://www.pivotaltracker.com/story/show/157951238)
+
+v2.3.16 May 08, 2018
+=====================
+
+* Add hwc 10.0.0, remove hwc 9.0.0
+  (https://www.pivotaltracker.com/story/show/157199824)
+
+v2.3.15 Apr 09, 2018
+=====================
+* Fail integration tests if inappropriate stack provided
+  (https://www.pivotaltracker.com/story/show/156203395)
+
+* Document new buildpack-packager build command
+  (https://www.pivotaltracker.com/story/show/155223266)
+
+* Online buildpacks should cache downloaded manifest.yml dependencies in the app cache
+  (https://www.pivotaltracker.com/story/show/155405429)
+
+
+v2.3.14 Feb 07, 2018
+=====================
+
+* Add hwc 9.0.0, remove hwc 8.0.0
+  (https://www.pivotaltracker.com/story/show/154967542)
+
+v2.3.13 Jan 22, 2018
+=====================
+
+* Add hwc 8.0.0, remove hwc 6.0.0
+  (https://www.pivotaltracker.com/story/show/154482369)
+
+v2.3.12 Jan 09, 2018
+=====================
+
+* Change checksums from MD5 to SHA256
+  (https://www.pivotaltracker.com/story/show/151913767)
+
+* Update README to reflect new build/test instructions
+  (https://www.pivotaltracker.com/story/show/153527401)
+
+* Simplify build/test scripts to make easier to run
+  Unify scripts across all buildpacks
+  (https://www.pivotaltracker.com/story/show/151293706)
+
+v2.3.11 Oct 17, 2017
+=====================
+
+* Adding back windows2016 to list of stacks
+  (https://www.pivotaltracker.com/story/show/152000747)
+
+v2.3.10 Oct 10, 2017
+=====================
+
+* Add hwc 6.0.0, remove hwc 5.0.0
+  (https://www.pivotaltracker.com/story/show/151765259)
+
+v2.3.9 Sep 08, 2017
+====================
+
+* Support rewriting URLs on Windows 2016
+  (https://www.pivotaltracker.com/story/show/150527696)
+
+* Add hwc 5.0.0, remove hwc 4.0.0
+  (https://www.pivotaltracker.com/story/show/150635950)
+
+v2.3.8 Jul 25, 2017
+====================
+
+Released due to packaging considerations
+
+v2.3.6 Jul 25, 2017
+====================
+
+* Add window2016 as a valid stack for hwc
+  (https://www.pivotaltracker.com/story/show/148691235)
+
+v2.3.5 Jul 21, 2017
+====================
+
+* Add hwc 4.0.0, remove hwc 3.0.0
+  (https://www.pivotaltracker.com/story/show/149035069)
+
+v2.3.4 Apr 20, 2017
+====================
+
+* Add hwc 3.0.0, remove hwc 2.0.0
+  (https://www.pivotaltracker.com/story/show/143971763)
+
+v2.3.3 Mar 27, 2017
+====================
+
+* Add hwc 2.0.0, remove hwc 1.0.1
+  (https://www.pivotaltracker.com/story/show/142095253)
+
+v2.3.2 Mar 15, 2017
+====================
+
+* Run detect.ps1 with Unrestricted execution policy
+
+v2.3.1 Mar 09, 2017
+====================
+
+* Use hwc 1.0.1 hosted in buildpacks S3 bucket
+  (https://www.pivotaltracker.com/story/show/141348577)
+
+* Buildpack logs its version
+
+* Fix bug where chmod failed on Windows
+  (https://www.pivotaltracker.com/story/show/139991007)
+
+v2.1.2 Feb 16, 2017
+====================
+
+* Release hwc-buildpack v2.1.2
